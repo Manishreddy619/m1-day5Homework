@@ -30,9 +30,9 @@ Write a function "crazyDiff" that computes the absolute difference between a giv
 It should return triple their absolute difference if the given number is greater than 19.
 */
 const crazyDiff = (number) => {
-	if (number - 19 > 19) {
+	if (number > 19) {
 		return 3 * (number - 19);
-	} else if (number - 19 <= 0) {
+	} else if (number <= 0) {
 		return -(number - 19);
 	} else return number - 19;
 };
